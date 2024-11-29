@@ -217,6 +217,7 @@
             this.txttelefono.Name = "txttelefono";
             this.txttelefono.Size = new System.Drawing.Size(78, 22);
             this.txttelefono.TabIndex = 17;
+            this.txttelefono.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.txttelefono_MaskInputRejected);
             // 
             // Form2
             // 

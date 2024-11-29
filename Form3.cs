@@ -208,9 +208,9 @@ namespace petbed
             else
             {
                 GuardarDatos(rbttdocil, rbttagresi, cbxtamaño, cbxraza, imagenperro);
-                Form Confirmación = new Form6();
+                Form Detalles = new Form5();
                 this.Hide();
-                Confirmación.Show();
+                Detalles.Show();
             }
         }
 

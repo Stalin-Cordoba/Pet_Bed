@@ -141,7 +141,16 @@ namespace petbed
             else
             {
                 MessageBox.Show("No puedes hospedar más de 4 perros");
+
             }
+
+            reserva.nombre = txtnomb.Text;
+            reserva.telefono = txttelefono.Text;
+            reserva.direccion = txtdire.Text;
+            reserva.correo = txtemail.Text;
+            reserva.contacto = txtctc1.Text;
+
+
         }
         
         private void crearformulario()
@@ -204,6 +213,11 @@ namespace petbed
                 Form FechaSelección = new Form4();
                 this.Hide();
                 FechaSelección.Show();
+        }
+
+        private void txttelefono_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
+        {
+
         }
     }
 }

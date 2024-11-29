@@ -20,11 +20,15 @@ namespace petbedcrack
         public Form4()
         {
             InitializeComponent();
-            fecha.fechaEntrada = dtpentrada.Value;
-           fecha.fechaSalida = dtpsalida.Value;
-            
+            dtpentrada.ValueChanged += (s, e) => CalcularCosto();
+            dtpsalida.ValueChanged += (s, e) => CalcularCosto();
+            rbttnormal.CheckedChanged += (s, e) => CalcularCosto();
+            rbttgrande.CheckedChanged += (s, e) => CalcularCosto();
+            rbttvip.CheckedChanged += (s, e) => CalcularCosto();
+
+
             dtpentrada.MinDate = DateTime.Today;
-            dtpsalida.MinDate = DateTime.Today;
+            dtpsalida.MinDate = dtpentrada.Value;
 
         }
 
@@ -32,34 +36,63 @@ namespace petbedcrack
         public RadioButton HNORMAL => rbttnormal;
         public RadioButton HVIP => rbttvip;
 
-        public DateTimePicker fentrada => dtpentrada;
-        public DateTimePicker fsalida => dtpsalida;
+        int cantidadDias;
+
+        private void CalcularCosto()
+        {
+
+            DateTime fechaEntrada = dtpentrada.Value.Date;
+            DateTime fechaSalida = dtpsalida.Value.Date;
+
+            // Validar que la fecha de salida sea posterior a la de entrada
+            if (fechaSalida <= fechaEntrada)
+            {
+                txtcostototal.Text = "Costo Total: ";
+                return;
+            }
+
+            // Calcular la cantidad de días
+            cantidadDias = (fechaSalida - fechaEntrada).Days;
+
+            // Determinar el costo diario según el RadioButton seleccionado
+            int costoDiario = 0;
+            if (rbttnormal.Checked)
+            {
+                costoDiario = 15;
+            }
+            else if (rbttgrande.Checked)
+            {
+                costoDiario = 20;
+            }
+            else if (rbttvip.Checked)
+            {
+                costoDiario = 25;
+            }
+            else
+            {
+                txtcostototal.Text = "Costo Total:";
+                return;
+            }
+
+            // Calcular el costo total
+            int costoTotal = costoDiario * cantidadDias;
+
+            // Mostrar el resultado en el Label
+            txtcostototal.Text = $"Costo Total: ${costoTotal}";
+
+        }
+
 
 
         public void dtphospedaje_ValueChanged(object sender, EventArgs e)
         {
-            if (dtpentrada.Value.Date < dtpsalida.Value)
-            {
+            dtpsalida.MinDate = dtpentrada.Value;
 
-                if (fecha.fechaEntrada == default || fecha.fechaSalida == default)
-                {
-                    MessageBox.Show("Las fechas no se han configurado correctamente en el Form4.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    return;
-                }
-            }
         }
 
         public void dtpsalida_ValueChanged(object sender, EventArgs e)
         {
-            if (dtpsalida.Value < dtpentrada.Value)
-            {
-                dtpentrada.Value = dtpsalida.Value;
-                if (fecha.fechaEntrada == default || fecha.fechaSalida == default)
-                {
-                    MessageBox.Show("Las fechas no se han configurado correctamente en el Form4.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    return;
-                }
-            }
+            
         }
 
         private void Form4_Load(object sender, EventArgs e)
@@ -78,6 +111,9 @@ namespace petbedcrack
             this.Hide();
             Inicio.Show();
         }
+
+        
+
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -103,6 +139,34 @@ namespace petbedcrack
                 }
                 else
                 {
+
+                    fecha.fechaEntrada = dtpentrada.Value.Date;
+                    fecha.fechaSalida = dtpsalida.Value.Date;
+                    dias.totaldias = cantidadDias;
+                    dias.totalcosto = txtcostototal.Text;
+                   
+                    if (rbttcredito.Checked)
+                    {
+                        reserva.pago = rbttcredito.Text = "Tarjeta Crédito";
+
+                    }
+
+                    else if (rbttdebito.Checked)
+                    {
+                        reserva.pago = rbttdebito.Text = "Tarjeta Débito";
+                    }
+                    else
+                    {
+                        reserva.pago = rbttefectivo.Text = "Efectivo";
+                    }
+
+
+                    if (fecha.fechaSalida <= fecha.fechaEntrada)
+                    {
+                        MessageBox.Show("La fecha de salida debe ser posterior a la fecha de entrada.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        return;
+                    }
+
                     Form2 form2 = new Form2();
                     form2.Text = "Datos del Cliente";
                     form2.Size = new System.Drawing.Size(616, 405);
@@ -117,6 +181,16 @@ namespace petbedcrack
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
             
+        }
+
+        private void txtcostototal_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox3_Enter(object sender, EventArgs e)
+        {
+
         }
     }
 }

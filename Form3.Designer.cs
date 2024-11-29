@@ -278,7 +278,7 @@
             // bttregistrar
             // 
             this.bttregistrar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.bttregistrar.Location = new System.Drawing.Point(456, 491);
+            this.bttregistrar.Location = new System.Drawing.Point(214, 491);
             this.bttregistrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bttregistrar.Name = "bttregistrar";
             this.bttregistrar.Size = new System.Drawing.Size(89, 27);
@@ -357,7 +357,7 @@
             // Regresar
             // 
             this.Regresar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.Regresar.Location = new System.Drawing.Point(284, 491);
+            this.Regresar.Location = new System.Drawing.Point(467, 491);
             this.Regresar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Regresar.Name = "Regresar";
             this.Regresar.Size = new System.Drawing.Size(89, 27);

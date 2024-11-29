@@ -47,13 +47,15 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.txtcostototal = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -148,7 +150,7 @@
             this.groupBox2.Controls.Add(this.rbttnormal);
             this.groupBox2.Controls.Add(this.rbttgrande);
             this.groupBox2.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(3, 300);
+            this.groupBox2.Location = new System.Drawing.Point(13, 291);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
@@ -204,7 +206,7 @@
             this.groupBox3.Controls.Add(this.rbttefectivo);
             this.groupBox3.Controls.Add(this.rbttdebito);
             this.groupBox3.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(384, 300);
+            this.groupBox3.Location = new System.Drawing.Point(322, 291);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
@@ -212,6 +214,7 @@
             this.groupBox3.TabIndex = 14;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Método de Pago";
+            this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
             // 
             // radioButton4
             // 
@@ -255,7 +258,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(881, 377);
+            this.button1.Location = new System.Drawing.Point(637, 377);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(118, 42);
@@ -266,7 +269,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(881, 325);
+            this.button2.Location = new System.Drawing.Point(883, 377);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(124, 40);
@@ -275,21 +278,11 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(792, 56);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(233, 27);
-            this.label4.TabIndex = 20;
-            this.label4.Text = "Costos (por noche):";
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(835, 96);
+            this.label5.Location = new System.Drawing.Point(12, 43);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(146, 27);
             this.label5.TabIndex = 21;
@@ -299,7 +292,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(835, 137);
+            this.label6.Location = new System.Drawing.Point(164, 43);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(151, 27);
             this.label6.TabIndex = 22;
@@ -309,11 +302,35 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(858, 182);
+            this.label7.Location = new System.Drawing.Point(12, 86);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(100, 27);
             this.label7.TabIndex = 23;
             this.label7.Text = "VIP: 20$";
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.txtcostototal);
+            this.groupBox4.Controls.Add(this.label7);
+            this.groupBox4.Controls.Add(this.label5);
+            this.groupBox4.Controls.Add(this.label6);
+            this.groupBox4.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox4.Location = new System.Drawing.Point(668, 51);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(357, 184);
+            this.groupBox4.TabIndex = 24;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Costos";
+            // 
+            // txtcostototal
+            // 
+            this.txtcostototal.AutoSize = true;
+            this.txtcostototal.Location = new System.Drawing.Point(12, 137);
+            this.txtcostototal.Name = "txtcostototal";
+            this.txtcostototal.Size = new System.Drawing.Size(152, 27);
+            this.txtcostototal.TabIndex = 24;
+            this.txtcostototal.Text = "Costo Total: ";
+            this.txtcostototal.Click += new System.EventHandler(this.txtcostototal_Click);
             // 
             // Form4
             // 
@@ -322,10 +339,7 @@
             this.BackColor = System.Drawing.Color.Brown;
             this.ClientSize = new System.Drawing.Size(1037, 450);
             this.ControlBox = false;
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
+            this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
@@ -349,6 +363,8 @@
             this.groupBox3.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -374,9 +390,10 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.Label txtcostototal;
     }
 }
