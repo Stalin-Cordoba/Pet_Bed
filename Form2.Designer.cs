@@ -156,10 +156,11 @@
             // 
             // bttregistrar
             // 
+            this.bttregistrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bttregistrar.Location = new System.Drawing.Point(205, 405);
             this.bttregistrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bttregistrar.Name = "bttregistrar";
-            this.bttregistrar.Size = new System.Drawing.Size(101, 34);
+            this.bttregistrar.Size = new System.Drawing.Size(119, 34);
             this.bttregistrar.TabIndex = 12;
             this.bttregistrar.Text = "Continuar";
             this.bttregistrar.UseVisualStyleBackColor = true;
@@ -201,10 +202,11 @@
             // 
             // continuar
             // 
+            this.continuar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.continuar.Location = new System.Drawing.Point(431, 405);
             this.continuar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.continuar.Name = "continuar";
-            this.continuar.Size = new System.Drawing.Size(101, 34);
+            this.continuar.Size = new System.Drawing.Size(125, 34);
             this.continuar.TabIndex = 16;
             this.continuar.Text = "Regresar";
             this.continuar.UseVisualStyleBackColor = true;

@@ -32,4 +32,9 @@ namespace petbedcrack
 
     }
 
+    public static class Perros
+    {
+        public static int totalperro { get; set; }
+    }
+
 }

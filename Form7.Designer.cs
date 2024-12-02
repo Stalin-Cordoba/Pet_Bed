@@ -53,9 +53,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(217, 419);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(201, 409);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(103, 31);
+            this.button1.Size = new System.Drawing.Size(119, 41);
             this.button1.TabIndex = 0;
             this.button1.Text = "Continuar";
             this.button1.UseVisualStyleBackColor = true;
@@ -64,20 +65,20 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(14, 78);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(254, 27);
+            this.label1.Size = new System.Drawing.Size(249, 27);
             this.label1.TabIndex = 1;
             this.label1.Text = "Número de la tarjeta:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(14, 123);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 27);
+            this.label2.Size = new System.Drawing.Size(70, 27);
             this.label2.TabIndex = 2;
             this.label2.Text = "CVC:";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -85,12 +86,13 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(15, 173);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(253, 27);
+            this.label3.Size = new System.Drawing.Size(251, 27);
             this.label3.TabIndex = 3;
             this.label3.Text = "Fecha de expiración:";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -104,7 +106,7 @@
             // 
             // maskedTextBox1
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(274, 83);
+            this.maskedTextBox1.Location = new System.Drawing.Point(291, 83);
             this.maskedTextBox1.Mask = "9999 9999 9999 9999";
             this.maskedTextBox1.Name = "maskedTextBox1";
             this.maskedTextBox1.Size = new System.Drawing.Size(152, 22);
@@ -113,9 +115,9 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(291, 178);
+            this.dateTimePicker1.Location = new System.Drawing.Point(291, 177);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(250, 22);
+            this.dateTimePicker1.Size = new System.Drawing.Size(265, 22);
             this.dateTimePicker1.TabIndex = 6;
             // 
             // maskedTextBox2
@@ -130,37 +132,38 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(12, 223);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(284, 27);
+            this.label5.Size = new System.Drawing.Size(278, 27);
             this.label5.TabIndex = 8;
             this.label5.Text = "Nombre del Propietario:";
             // 
             // NombreTarjeta
             // 
-            this.NombreTarjeta.Location = new System.Drawing.Point(318, 228);
+            this.NombreTarjeta.Location = new System.Drawing.Point(318, 223);
+            this.NombreTarjeta.Multiline = true;
             this.NombreTarjeta.Name = "NombreTarjeta";
-            this.NombreTarjeta.Size = new System.Drawing.Size(223, 22);
+            this.NombreTarjeta.Size = new System.Drawing.Size(238, 26);
             this.NombreTarjeta.TabIndex = 9;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(15, 280);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(63, 27);
+            this.label6.Size = new System.Drawing.Size(62, 27);
             this.label6.TabIndex = 10;
             this.label6.Text = "País:";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(14, 329);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(105, 27);
+            this.label7.Size = new System.Drawing.Size(101, 27);
             this.label7.TabIndex = 11;
             this.label7.Text = "Ciudad:";
             // 
@@ -358,9 +361,10 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(409, 419);
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(409, 409);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(103, 31);
+            this.button2.Size = new System.Drawing.Size(132, 41);
             this.button2.TabIndex = 14;
             this.button2.Text = "Regresar";
             this.button2.UseVisualStyleBackColor = true;
@@ -378,7 +382,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Brown;
+            this.BackColor = System.Drawing.Color.IndianRed;
             this.ClientSize = new System.Drawing.Size(731, 472);
             this.ControlBox = false;
             this.Controls.Add(this.button2);

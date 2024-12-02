@@ -91,20 +91,20 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(15, 78);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(259, 27);
+            this.label2.Size = new System.Drawing.Size(256, 27);
             this.label2.TabIndex = 3;
             this.label2.Text = "Fecha de hospedaje: ";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(19, 126);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(207, 27);
+            this.label3.Size = new System.Drawing.Size(203, 27);
             this.label3.TabIndex = 4;
             this.label3.Text = "Fecha de salida: ";
             // 
@@ -114,7 +114,7 @@
             this.rbttcredito.Location = new System.Drawing.Point(21, 76);
             this.rbttcredito.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rbttcredito.Name = "rbttcredito";
-            this.rbttcredito.Size = new System.Drawing.Size(209, 34);
+            this.rbttcredito.Size = new System.Drawing.Size(197, 31);
             this.rbttcredito.TabIndex = 6;
             this.rbttcredito.TabStop = true;
             this.rbttcredito.Text = "Tarjeta Crédito";
@@ -126,7 +126,7 @@
             this.rbttdebito.Location = new System.Drawing.Point(21, 114);
             this.rbttdebito.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rbttdebito.Name = "rbttdebito";
-            this.rbttdebito.Size = new System.Drawing.Size(200, 34);
+            this.rbttdebito.Size = new System.Drawing.Size(188, 31);
             this.rbttdebito.TabIndex = 7;
             this.rbttdebito.TabStop = true;
             this.rbttdebito.Text = "Tarjeta Débito";
@@ -138,7 +138,7 @@
             this.rbttefectivo.Location = new System.Drawing.Point(20, 38);
             this.rbttefectivo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rbttefectivo.Name = "rbttefectivo";
-            this.rbttefectivo.Size = new System.Drawing.Size(132, 34);
+            this.rbttefectivo.Size = new System.Drawing.Size(122, 31);
             this.rbttefectivo.TabIndex = 8;
             this.rbttefectivo.TabStop = true;
             this.rbttefectivo.Text = "Efectivo";
@@ -149,7 +149,7 @@
             this.groupBox2.Controls.Add(this.rbttvip);
             this.groupBox2.Controls.Add(this.rbttnormal);
             this.groupBox2.Controls.Add(this.rbttgrande);
-            this.groupBox2.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(13, 291);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
@@ -163,11 +163,11 @@
             // rbttvip
             // 
             this.rbttvip.AutoSize = true;
-            this.rbttvip.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbttvip.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbttvip.Location = new System.Drawing.Point(21, 114);
             this.rbttvip.Margin = new System.Windows.Forms.Padding(4);
             this.rbttvip.Name = "rbttvip";
-            this.rbttvip.Size = new System.Drawing.Size(63, 27);
+            this.rbttvip.Size = new System.Drawing.Size(62, 27);
             this.rbttvip.TabIndex = 2;
             this.rbttvip.TabStop = true;
             this.rbttvip.Text = "VIP";
@@ -176,11 +176,11 @@
             // rbttnormal
             // 
             this.rbttnormal.AutoSize = true;
-            this.rbttnormal.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbttnormal.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbttnormal.Location = new System.Drawing.Point(21, 38);
             this.rbttnormal.Margin = new System.Windows.Forms.Padding(4);
             this.rbttnormal.Name = "rbttnormal";
-            this.rbttnormal.Size = new System.Drawing.Size(103, 27);
+            this.rbttnormal.Size = new System.Drawing.Size(102, 27);
             this.rbttnormal.TabIndex = 1;
             this.rbttnormal.TabStop = true;
             this.rbttnormal.Text = "Normal";
@@ -190,11 +190,11 @@
             // rbttgrande
             // 
             this.rbttgrande.AutoSize = true;
-            this.rbttgrande.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbttgrande.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbttgrande.Location = new System.Drawing.Point(21, 76);
             this.rbttgrande.Margin = new System.Windows.Forms.Padding(4);
             this.rbttgrande.Name = "rbttgrande";
-            this.rbttgrande.Size = new System.Drawing.Size(107, 27);
+            this.rbttgrande.Size = new System.Drawing.Size(105, 27);
             this.rbttgrande.TabIndex = 0;
             this.rbttgrande.TabStop = true;
             this.rbttgrande.Text = "Grande";
@@ -205,7 +205,7 @@
             this.groupBox3.Controls.Add(this.rbttcredito);
             this.groupBox3.Controls.Add(this.rbttefectivo);
             this.groupBox3.Controls.Add(this.rbttdebito);
-            this.groupBox3.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox3.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.Location = new System.Drawing.Point(322, 291);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
@@ -219,11 +219,11 @@
             // radioButton4
             // 
             this.radioButton4.AutoSize = true;
-            this.radioButton4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton4.Location = new System.Drawing.Point(264, 37);
             this.radioButton4.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(171, 27);
+            this.radioButton4.Size = new System.Drawing.Size(169, 27);
             this.radioButton4.TabIndex = 15;
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "Camas Juntas";
@@ -232,11 +232,11 @@
             // radioButton5
             // 
             this.radioButton5.AutoSize = true;
-            this.radioButton5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.radioButton5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton5.Location = new System.Drawing.Point(8, 37);
             this.radioButton5.Margin = new System.Windows.Forms.Padding(4);
             this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(215, 27);
+            this.radioButton5.Size = new System.Drawing.Size(210, 27);
             this.radioButton5.TabIndex = 16;
             this.radioButton5.TabStop = true;
             this.radioButton5.Text = "Camas Separadas";
@@ -246,7 +246,7 @@
             // 
             this.groupBox1.Controls.Add(this.radioButton4);
             this.groupBox1.Controls.Add(this.radioButton5);
-            this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(20, 171);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
@@ -258,6 +258,7 @@
             // 
             // button1
             // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(637, 377);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
@@ -269,6 +270,7 @@
             // 
             // button2
             // 
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(883, 377);
             this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
@@ -281,32 +283,32 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(12, 43);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(146, 27);
+            this.label5.Size = new System.Drawing.Size(145, 27);
             this.label5.TabIndex = 21;
-            this.label5.Text = "Normal: 10$";
+            this.label5.Text = "Normal: 15$";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(164, 43);
+            this.label6.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(191, 43);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(151, 27);
+            this.label6.Size = new System.Drawing.Size(148, 27);
             this.label6.TabIndex = 22;
-            this.label6.Text = "Grande: 15$";
+            this.label6.Text = "Grande: 20$";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(12, 86);
+            this.label7.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(122, 89);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(100, 27);
+            this.label7.Size = new System.Drawing.Size(98, 27);
             this.label7.TabIndex = 23;
-            this.label7.Text = "VIP: 20$";
+            this.label7.Text = "VIP: 25$";
             // 
             // groupBox4
             // 
@@ -314,7 +316,7 @@
             this.groupBox4.Controls.Add(this.label7);
             this.groupBox4.Controls.Add(this.label5);
             this.groupBox4.Controls.Add(this.label6);
-            this.groupBox4.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox4.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox4.Location = new System.Drawing.Point(668, 51);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(357, 184);
@@ -325,9 +327,9 @@
             // txtcostototal
             // 
             this.txtcostototal.AutoSize = true;
-            this.txtcostototal.Location = new System.Drawing.Point(12, 137);
+            this.txtcostototal.Location = new System.Drawing.Point(12, 138);
             this.txtcostototal.Name = "txtcostototal";
-            this.txtcostototal.Size = new System.Drawing.Size(152, 27);
+            this.txtcostototal.Size = new System.Drawing.Size(148, 27);
             this.txtcostototal.TabIndex = 24;
             this.txtcostototal.Text = "Costo Total: ";
             this.txtcostototal.Click += new System.EventHandler(this.txtcostototal_Click);

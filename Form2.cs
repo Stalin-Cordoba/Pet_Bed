@@ -129,10 +129,17 @@ namespace petbed
             {
                 MessageBox.Show("Rellene todos los campos");
             }
-            else if (int.TryParse(txtnumper.Text, out totalformularios) && totalformularios > 0 && totalformularios <= 4) //Verifica si la cantidad de perros ingresada es correcta y adecuada
+            else if (int.TryParse(txtnumper.Text, out totalformularios) && totalformularios > 0) //Verifica si la cantidad de perros ingresada es correcta
             {
-                PerrosC = int.Parse(txtnumper.Text);
-                crearformulario();
+                if (int.TryParse(txtnumper.Text, out int cantidad) && cantidad > 0)
+                {
+                    formularioscreados = 0;
+                    crearformulario();
+                }
+                else
+                {
+                    MessageBox.Show("Por favor, introduce un número válido.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
             else if(!txtemail.Text.Contains("@"))
             {
@@ -149,6 +156,7 @@ namespace petbed
             reserva.direccion = txtdire.Text;
             reserva.correo = txtemail.Text;
             reserva.contacto = txtctc1.Text;
+            Perros.totalperro = int.Parse(txtnumper.Text);
 
 
         }

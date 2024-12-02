@@ -61,11 +61,11 @@
             // txtingreso
             // 
             this.txtingreso.AutoSize = true;
-            this.txtingreso.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtingreso.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtingreso.Location = new System.Drawing.Point(457, 75);
             this.txtingreso.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.txtingreso.Name = "txtingreso";
-            this.txtingreso.Size = new System.Drawing.Size(234, 30);
+            this.txtingreso.Size = new System.Drawing.Size(218, 27);
             this.txtingreso.TabIndex = 1;
             this.txtingreso.Text = "Fecha de Ingreso: ";
             this.txtingreso.Click += new System.EventHandler(this.txtingreso_Click);
@@ -73,11 +73,11 @@
             // txtsalida
             // 
             this.txtsalida.AutoSize = true;
-            this.txtsalida.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtsalida.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtsalida.Location = new System.Drawing.Point(457, 155);
             this.txtsalida.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.txtsalida.Name = "txtsalida";
-            this.txtsalida.Size = new System.Drawing.Size(213, 30);
+            this.txtsalida.Size = new System.Drawing.Size(199, 27);
             this.txtsalida.TabIndex = 2;
             this.txtsalida.Text = "Fecha de Salida:";
             // 
@@ -104,61 +104,61 @@
             // txtnombre
             // 
             this.txtnombre.AutoSize = true;
-            this.txtnombre.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtnombre.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtnombre.Location = new System.Drawing.Point(18, 75);
             this.txtnombre.Name = "txtnombre";
-            this.txtnombre.Size = new System.Drawing.Size(110, 27);
+            this.txtnombre.Size = new System.Drawing.Size(109, 27);
             this.txtnombre.TabIndex = 3;
             this.txtnombre.Text = "Nombre:";
             // 
             // txtcel
             // 
             this.txtcel.AutoSize = true;
-            this.txtcel.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtcel.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtcel.Location = new System.Drawing.Point(18, 142);
             this.txtcel.Name = "txtcel";
-            this.txtcel.Size = new System.Drawing.Size(116, 27);
+            this.txtcel.Size = new System.Drawing.Size(114, 27);
             this.txtcel.TabIndex = 4;
             this.txtcel.Text = "Teléfono:";
             // 
             // txtcorreo
             // 
             this.txtcorreo.AutoSize = true;
-            this.txtcorreo.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtcorreo.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtcorreo.Location = new System.Drawing.Point(18, 216);
             this.txtcorreo.Name = "txtcorreo";
-            this.txtcorreo.Size = new System.Drawing.Size(96, 27);
+            this.txtcorreo.Size = new System.Drawing.Size(95, 27);
             this.txtcorreo.TabIndex = 5;
             this.txtcorreo.Text = "Correo:";
             // 
             // txtcontacto
             // 
             this.txtcontacto.AutoSize = true;
-            this.txtcontacto.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtcontacto.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtcontacto.Location = new System.Drawing.Point(18, 398);
             this.txtcontacto.Name = "txtcontacto";
-            this.txtcontacto.Size = new System.Drawing.Size(311, 27);
+            this.txtcontacto.Size = new System.Drawing.Size(305, 27);
             this.txtcontacto.TabIndex = 6;
             this.txtcontacto.Text = "Contacto de emergencia:";
             // 
             // txtdire
             // 
             this.txtdire.AutoSize = true;
-            this.txtdire.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtdire.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtdire.Location = new System.Drawing.Point(18, 302);
             this.txtdire.Name = "txtdire";
-            this.txtdire.Size = new System.Drawing.Size(128, 27);
+            this.txtdire.Size = new System.Drawing.Size(127, 27);
             this.txtdire.TabIndex = 7;
             this.txtdire.Text = "Dirección:";
             // 
             // txtpago
             // 
             this.txtpago.AutoSize = true;
-            this.txtpago.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtpago.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtpago.Location = new System.Drawing.Point(457, 311);
             this.txtpago.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.txtpago.Name = "txtpago";
-            this.txtpago.Size = new System.Drawing.Size(225, 30);
+            this.txtpago.Size = new System.Drawing.Size(208, 27);
             this.txtpago.TabIndex = 8;
             this.txtpago.Text = "Método de pago:";
             // 
@@ -169,15 +169,16 @@
             this.txtcostototal.Location = new System.Drawing.Point(457, 398);
             this.txtcostototal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.txtcostototal.Name = "txtcostototal";
-            this.txtcostototal.Size = new System.Drawing.Size(154, 30);
+            this.txtcostototal.Size = new System.Drawing.Size(0, 30);
             this.txtcostototal.TabIndex = 9;
-            this.txtcostototal.Text = "Costo Total:";
+            this.txtcostototal.Click += new System.EventHandler(this.txtcostototal_Click);
             // 
             // Reservar
             // 
-            this.Reservar.Location = new System.Drawing.Point(248, 516);
+            this.Reservar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Reservar.Location = new System.Drawing.Point(618, 504);
             this.Reservar.Name = "Reservar";
-            this.Reservar.Size = new System.Drawing.Size(150, 41);
+            this.Reservar.Size = new System.Drawing.Size(241, 41);
             this.Reservar.TabIndex = 10;
             this.Reservar.Text = "Efectuar reserva";
             this.Reservar.UseVisualStyleBackColor = true;
@@ -185,9 +186,10 @@
             // 
             // Cancelar
             // 
-            this.Cancelar.Location = new System.Drawing.Point(498, 516);
+            this.Cancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Cancelar.Location = new System.Drawing.Point(23, 504);
             this.Cancelar.Name = "Cancelar";
-            this.Cancelar.Size = new System.Drawing.Size(151, 41);
+            this.Cancelar.Size = new System.Drawing.Size(274, 41);
             this.Cancelar.TabIndex = 11;
             this.Cancelar.Text = "Cancelar reserva";
             this.Cancelar.UseVisualStyleBackColor = true;
@@ -196,10 +198,10 @@
             // txtdias
             // 
             this.txtdias.AutoSize = true;
-            this.txtdias.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtdias.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtdias.Location = new System.Drawing.Point(457, 239);
             this.txtdias.Name = "txtdias";
-            this.txtdias.Size = new System.Drawing.Size(158, 27);
+            this.txtdias.Size = new System.Drawing.Size(155, 27);
             this.txtdias.TabIndex = 12;
             this.txtdias.Text = "Días Totales: ";
             // 
@@ -207,7 +209,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Brown;
+            this.BackColor = System.Drawing.Color.LightCoral;
             this.ClientSize = new System.Drawing.Size(889, 581);
             this.ControlBox = false;
             this.Controls.Add(this.txtdias);
@@ -228,7 +230,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form5";
-            this.Text = "Form5";
+            this.Text = "Resumen de la reservación";
             this.Load += new System.EventHandler(this.Form5_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

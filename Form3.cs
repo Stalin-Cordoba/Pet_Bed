@@ -15,6 +15,8 @@ namespace petbed
 {
     public partial class Form3 : Form
     {
+        int Conteo = 1;
+
         public Form3()
         {
             InitializeComponent();
@@ -88,7 +90,6 @@ namespace petbed
             {
                 formatter.Serialize(stream, Datos_Perros); // Serializa el objeto 'data' y lo guarda en el archivo
             }
-
             
         }
 
@@ -158,7 +159,7 @@ namespace petbed
 
         private void Form3_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -207,10 +208,34 @@ namespace petbed
             }
             else
             {
-                GuardarDatos(rbttdocil, rbttagresi, cbxtamaño, cbxraza, imagenperro);
-                Form Detalles = new Form5();
-                this.Hide();
-                Detalles.Show();
+                
+                if(Perros.totalperro == 1)
+                {
+                    GuardarDatos(rbttdocil, rbttagresi, cbxtamaño, cbxraza, imagenperro);
+                    Form Detalles = new Form5();
+                    this.Hide();
+                    Detalles.Show();
+                }
+                else
+                {
+                    Perros.totalperro--;
+                    GuardarDatos(rbttdocil, rbttagresi, cbxtamaño, cbxraza, imagenperro);
+
+                    txtnombreperro.Text = null;
+                    cbxraza.Text = null;
+                    txtedad.Text = null;
+                    rbttmacho.Checked = false;
+                    rbtthembra.Checked = false;
+                    txtpeso.Text = null;
+                    cbxtamaño.Text = null;
+                    rbttdocil.Checked = false;
+                    rbttagresi.Checked = false;
+                    txtespecial.Text = null;
+                    imagenperro.Image = null;
+
+                    Conteo++;
+                    this.Text = $"Datos del Perro N°{Conteo}";
+                }
             }
         }
 

@@ -31,7 +31,7 @@ namespace petbedcrack
             txtingreso.Text = $"Fecha de Ingreso: {fecha.fechaEntrada.ToString("dd/MM/yyyy")}";
             txtsalida.Text = $"Fecha de Salida: {fecha.fechaSalida.ToString("dd/MM/yyyy")}";
             txtdias.Text = $"Dias Totales: {dias.totaldias.ToString()}";
-            txtcostototal.Text = $"Costo Total: {dias.totalcosto.ToString()}";
+            txtcostototal.Text = $"{dias.totalcosto.ToString()}";
             txtnombre.Text = $"Nombre: {reserva.nombre.ToString()}";  
             txtcel.Text = $"Teléfono: {reserva.telefono.ToString()}";
             txtcorreo.Text = $"Correo: {reserva.correo.ToString()}";
@@ -62,6 +62,11 @@ namespace petbedcrack
         }
 
         private void txtingreso_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtcostototal_Click(object sender, EventArgs e)
         {
 
         }

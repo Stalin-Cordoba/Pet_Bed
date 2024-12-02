@@ -54,6 +54,7 @@
             this.rbttagresi = new System.Windows.Forms.RadioButton();
             this.rbttdocil = new System.Windows.Forms.RadioButton();
             this.Regresar = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.imagenperro)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -65,9 +66,9 @@
             this.label1.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(15, 11);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(572, 40);
+            this.label1.Size = new System.Drawing.Size(654, 40);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Registra los datos de tu mascota: ";
+            this.label1.Text = "Registra los datos de tu(s) mascota(s): ";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
@@ -195,10 +196,11 @@
             // 
             this.rbttmacho.AutoSize = true;
             this.rbttmacho.BackColor = System.Drawing.Color.Transparent;
-            this.rbttmacho.Location = new System.Drawing.Point(105, 194);
+            this.rbttmacho.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbttmacho.Location = new System.Drawing.Point(104, 191);
             this.rbttmacho.Margin = new System.Windows.Forms.Padding(4);
             this.rbttmacho.Name = "rbttmacho";
-            this.rbttmacho.Size = new System.Drawing.Size(69, 20);
+            this.rbttmacho.Size = new System.Drawing.Size(98, 29);
             this.rbttmacho.TabIndex = 13;
             this.rbttmacho.TabStop = true;
             this.rbttmacho.Text = "Macho";
@@ -208,10 +210,11 @@
             // 
             this.rbtthembra.AutoSize = true;
             this.rbtthembra.BackColor = System.Drawing.Color.Transparent;
-            this.rbtthembra.Location = new System.Drawing.Point(191, 194);
+            this.rbtthembra.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbtthembra.Location = new System.Drawing.Point(214, 192);
             this.rbtthembra.Margin = new System.Windows.Forms.Padding(4);
             this.rbtthembra.Name = "rbtthembra";
-            this.rbtthembra.Size = new System.Drawing.Size(77, 20);
+            this.rbtthembra.Size = new System.Drawing.Size(108, 29);
             this.rbtthembra.TabIndex = 14;
             this.rbtthembra.TabStop = true;
             this.rbtthembra.Text = "Hembra";
@@ -229,10 +232,11 @@
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Location = new System.Drawing.Point(281, 233);
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(277, 226);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(22, 16);
+            this.label9.Size = new System.Drawing.Size(36, 25);
             this.label9.TabIndex = 16;
             this.label9.Text = "Lb";
             // 
@@ -242,20 +246,21 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.imagenperro.BackColor = System.Drawing.Color.Transparent;
-            this.imagenperro.Location = new System.Drawing.Point(480, 79);
+            this.imagenperro.Location = new System.Drawing.Point(608, 132);
             this.imagenperro.Margin = new System.Windows.Forms.Padding(4);
             this.imagenperro.Name = "imagenperro";
-            this.imagenperro.Size = new System.Drawing.Size(267, 271);
+            this.imagenperro.Size = new System.Drawing.Size(276, 270);
             this.imagenperro.TabIndex = 17;
             this.imagenperro.TabStop = false;
             this.imagenperro.Click += new System.EventHandler(this.imagenperro_Click);
             // 
             // bttsubirimg
             // 
-            this.bttsubirimg.Location = new System.Drawing.Point(560, 357);
+            this.bttsubirimg.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttsubirimg.Location = new System.Drawing.Point(692, 410);
             this.bttsubirimg.Margin = new System.Windows.Forms.Padding(4);
             this.bttsubirimg.Name = "bttsubirimg";
-            this.bttsubirimg.Size = new System.Drawing.Size(100, 28);
+            this.bttsubirimg.Size = new System.Drawing.Size(100, 35);
             this.bttsubirimg.TabIndex = 18;
             this.bttsubirimg.Text = "Subir";
             this.bttsubirimg.UseVisualStyleBackColor = true;
@@ -278,12 +283,13 @@
             // bttregistrar
             // 
             this.bttregistrar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.bttregistrar.Location = new System.Drawing.Point(214, 491);
+            this.bttregistrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttregistrar.Location = new System.Drawing.Point(280, 599);
             this.bttregistrar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.bttregistrar.Name = "bttregistrar";
-            this.bttregistrar.Size = new System.Drawing.Size(89, 27);
+            this.bttregistrar.Size = new System.Drawing.Size(129, 33);
             this.bttregistrar.TabIndex = 23;
-            this.bttregistrar.Text = "Continuar";
+            this.bttregistrar.Text = "Siguiente";
             this.bttregistrar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.bttregistrar.UseVisualStyleBackColor = true;
             this.bttregistrar.Click += new System.EventHandler(this.button1_Click);
@@ -301,20 +307,21 @@
             // 
             // txtespecial
             // 
-            this.txtespecial.Location = new System.Drawing.Point(337, 448);
+            this.txtespecial.Location = new System.Drawing.Point(13, 473);
             this.txtespecial.Margin = new System.Windows.Forms.Padding(4);
+            this.txtespecial.Multiline = true;
             this.txtespecial.Name = "txtespecial";
-            this.txtespecial.Size = new System.Drawing.Size(148, 22);
+            this.txtespecial.Size = new System.Drawing.Size(393, 108);
             this.txtespecial.TabIndex = 26;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(163, 156);
+            this.label11.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(161, 149);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(41, 19);
+            this.label11.Size = new System.Drawing.Size(54, 22);
             this.label11.TabIndex = 27;
             this.label11.Text = "Años";
             this.label11.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -357,23 +364,35 @@
             // Regresar
             // 
             this.Regresar.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.Regresar.Location = new System.Drawing.Point(467, 491);
+            this.Regresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Regresar.Location = new System.Drawing.Point(514, 599);
             this.Regresar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Regresar.Name = "Regresar";
-            this.Regresar.Size = new System.Drawing.Size(89, 27);
+            this.Regresar.Size = new System.Drawing.Size(115, 33);
             this.Regresar.TabIndex = 29;
             this.Regresar.Text = "Regresar";
             this.Regresar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.Regresar.UseVisualStyleBackColor = true;
             this.Regresar.Click += new System.EventHandler(this.Regresar_Click);
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(669, 102);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(146, 25);
+            this.label8.TabIndex = 30;
+            this.label8.Text = "Foto del perro";
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Brown;
-            this.ClientSize = new System.Drawing.Size(800, 529);
+            this.BackColor = System.Drawing.Color.RosyBrown;
+            this.ClientSize = new System.Drawing.Size(933, 643);
             this.ControlBox = false;
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.Regresar);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label11);
@@ -402,7 +421,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form3";
-            this.Text = "Sistema de Reserva \"PetBed\"";
+            this.Text = "Datos del Perro N°1";
             this.Load += new System.EventHandler(this.Form3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.imagenperro)).EndInit();
             this.groupBox1.ResumeLayout(false);
@@ -439,5 +458,6 @@
         private System.Windows.Forms.RadioButton rbttagresi;
         private System.Windows.Forms.RadioButton rbttdocil;
         private System.Windows.Forms.Button Regresar;
+        private System.Windows.Forms.Label label8;
     }
 }

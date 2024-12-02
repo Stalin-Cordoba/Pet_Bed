@@ -41,11 +41,11 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(99, 11);
+            this.label1.Location = new System.Drawing.Point(76, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(599, 52);
+            this.label1.Size = new System.Drawing.Size(637, 54);
             this.label1.TabIndex = 0;
             this.label1.Text = "¡Bienvenido al Hotel Canino!";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -67,10 +67,11 @@
             // button1
             // 
             this.button1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.button1.Location = new System.Drawing.Point(266, 405);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(205, 405);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(77, 34);
+            this.button1.Size = new System.Drawing.Size(104, 34);
             this.button1.TabIndex = 3;
             this.button1.Text = "Reservar";
             this.button1.UseVisualStyleBackColor = true;
@@ -78,7 +79,8 @@
             // 
             // SalirPrograma
             // 
-            this.SalirPrograma.Location = new System.Drawing.Point(411, 405);
+            this.SalirPrograma.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SalirPrograma.Location = new System.Drawing.Point(487, 408);
             this.SalirPrograma.Name = "SalirPrograma";
             this.SalirPrograma.Size = new System.Drawing.Size(97, 33);
             this.SalirPrograma.TabIndex = 4;
